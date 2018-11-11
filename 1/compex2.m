@@ -19,7 +19,7 @@ scatter([p3(1,1), p3(1,2)], [p3(2,1), p3(2,2)], 'x', 'red')
 l1 = cross(p1(:,1), p1(:,2));
 l2 = cross(p2(:,1), p2(:,2));
 l3 = cross(p3(:,1), p3(:,2));
-rital(l1)git
+rital(l1)
 rital(l2)
 rital(l3)
 

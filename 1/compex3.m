@@ -21,6 +21,7 @@ H4 = [sqrt(3) -1 1; 1 sqrt(3) 1; 1/4 1/2 2];
 
 %Transform points, and plot the lines between them
 H = H4 %Choose transformation matrix
+
 startpoints_transformed_homo = H*[startpoints; ones(1,length(startpoints))];
 endpoints_transformed_homo = H*[endpoints; ones(1,length(endpoints))];
 startpoints_transformed = pflat(startpoints_transformed_homo);
